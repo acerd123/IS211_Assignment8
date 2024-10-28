@@ -36,7 +36,7 @@ class Player:
                     break
 
     def reset(self):
-        """Resets player's total points for new game."""
+        
         self.total_points = 0
 
 class HumanPlayer(Player):
