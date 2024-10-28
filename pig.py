@@ -40,7 +40,7 @@ class Player:
         self.total_points = 0
 
 class HumanPlayer(Player):
-    pass  # Uses default play_turn behavior
+    pass  
 
 class ComputerPlayer(Player):
     def play_turn(self):
@@ -98,7 +98,7 @@ class Game:
         self.winner.display()
 
     def reset_game(self):
-        """Resets the game for all players."""
+        
         for player in self.players:
             player.reset()
         self.winner = None
